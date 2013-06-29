@@ -6,7 +6,7 @@ PACKAGE = tests
 
 PROJ_CLEAN += $(PROJ_CPPTESTS)
 
-PROJ_PYTESTS = async_map.py test_map.py test_mp.py test_pp.py test_star.py test_with.py
+PROJ_PYTESTS = unittest_mp.py unittest_pools.py unittest_pp.py unittest_star.py
 PROJ_CPPTESTS = 
 PROJ_TESTS = $(PROJ_PYTESTS) # $(PROJ_CPPTESTS)
 PROJ_LIBRARIES = -L$(BLD_LIBDIR) # -lpathos

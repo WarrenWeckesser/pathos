@@ -1,3 +1,4 @@
 numpy
 git+https://github.com/uqfoundation/dill.git#egg=dill
 git+https://github.com/uqfoundation/pox.git#egg=pox
+unittest2
